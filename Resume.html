@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/autka/Desktop/vscode/html/Resume.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./Resume_files/icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .header {
+        background-color: rgb(0, 234, 255);
+        padding: 10px;
+        height: 15px;
+        text-align: center;
+        border-radius: 3px;
+        width: 1020px;
+        border-color: #333 3px;
+        }
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "image-left image-right"
+                "left-content right-content";
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            width: 90%;
+            max-width: 1000px;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .image-left {
+            grid-area: image-left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-right {
+            grid-area: image-right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-left img, .image-right img {
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .image-right img {
+            border-radius: 10px;
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .left-content {
+            grid-area: left-content;
+            display: grid;
+            grid-template-rows: repeat(6, auto);
+            gap: 10px;
+            background-color: aqua;
+        }
+        .right-content {
+            grid-area: right-content;
+            display: grid;
+            grid-template-rows: repeat(6, auto);
+            gap: 10px;
+            background-color: aqua;
+        }
+        .section {
+            padding: 10px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: rgb(237, 217, 177);
+            border-radius: 5px;
+        }
+        .section h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body><div class="header">
+ <strong>Resume</strong>
+</div>
+
+    <div class="container">
+        <div class="image-left">
+            <img src="./Resume_files/harsh.jpeg" alt="Profile Picture">
+        </div>
+        <div class="image-right">
+            <img src="./Resume_files/coursera.jpg" alt="Certificate">
+        </div>
+        <div class="left-content">
+            <div class="section">
+                <h2>Education</h2>
+                <p>Ongoing Bachelor's Degree in Computer Science</p>
+        </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming:C++ , C </li>
+                    <li>Web Development: HTML, CSS, React</li>
+                    <li>Data Analysis and Visualization</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Photography</li>
+                    <li>Traveling</li>
+                    <li>Reading Science Fiction</li>
+                    <li>Web Developing</li>
+                </ul>
+            </div>
+            <div class="section">
+        
+               <i class="material-icons">mail</i>: harsh.autkar24@pcu.edu.in;
+                <br>
+               <i class="material-icons">location_on</i>: Viman Nagar, Pune, Maharashtra;
+               <br>
+                <i class="material-icons">call</i>775882****;
+                <br>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="section">
+                <h2>GitHub</h2>
+                <a href="https://github.com/your-profile" target="_blank">https://github.com/Harsh-Autkar</a>
+                <h2>LinkedIn</h2>
+                <a href="https://linkedin.com/in/your-profile" target="_blank">www.linkedin.com/in/
+                    harsh-autkar-15a08b330 
+                </a>
+            </div>
+            <div class="section">
+                <h2>Certificate</h2>
+                <p>Certified in Overleaf Project</p>
+            </div>
+            <div class="section">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Won TCS Round of Complex Coding</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Personal Info</h2>
+                <p><strong>Date of Birth:</strong> June 27, 2006</p>
+                <p><strong>Languages Known:</strong> English</p>
+                <p><strong>Aadhaar Number:</strong> 1234-5678-9101</p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
