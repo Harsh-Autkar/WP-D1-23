@@ -129,9 +129,7 @@
         let expression = document.getElementById('display').value;
 
         try {
-            // Evaluate the mathematical expression
             let result = eval(expression);
-            // Handle special functions
             if (result !== undefined) {
                 document.getElementById('display').value = result;
             }
